@@ -1,5 +1,7 @@
 {
   "name": "voting_app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
