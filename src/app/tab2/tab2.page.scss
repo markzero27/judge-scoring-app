@@ -1,1 +1,23 @@
 
+
+ion-item-divider {
+    --background: #E67C7E;
+    --color: #ffffff;
+    .total-score {
+        text-align: center;
+        width: 100%;
+        text-shadow: 2px 0px 0px #000000;
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}   
+
+ion-range {
+    padding: 0 15px;
+}
+
+ion-button {
+    --background:#C70855;
+    --background-activated:#D8576B;
+    // --background-focused: #3880ff;
+}

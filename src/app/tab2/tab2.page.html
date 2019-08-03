@@ -1,9 +1,53 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar mode='ios'>
     <ion-title>
-      Tab Two
+      Judge1
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-card>
+    <ion-img src="/assets/img/pageant.png"></ion-img>
+    <ion-card-header>
+
+      <ion-card-subtitle>Candidate # 1</ion-card-subtitle>
+      <ion-card-title>Moira Dela Poste</ion-card-title>
+      <ion-note>Bachelor of Science in Information Technology</ion-note>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list lines="none">
+        <ion-list-header>
+          <ion-label>Fantasy Attire</ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-label position="stacked">(25%) Personality</ion-label>
+          <ion-range no-margin color="danger" pin="true"></ion-range>
+        </ion-item>
+        <ion-item>
+          <ion-label position="stacked">(35%) Creativity</ion-label>
+          <ion-range color="danger" pin="true"></ion-range>
+        </ion-item>
+        <ion-item>
+          <ion-label position="stacked">(30%) Poise and Bearing</ion-label>
+          <ion-range color="danger" pin="true"></ion-range>
+        </ion-item>
+        <ion-item>
+          <ion-label position="stacked">(10%) Audience Impact</ion-label>
+          <ion-range color="danger" pin="true" ticks="false"></ion-range>
+        </ion-item>
+
+
+
+
+      </ion-list>
+
+    </ion-card-content>
+    <ion-item-divider>
+      <ion-label class="total-score">Calculated Score: 100%</ion-label>
+    </ion-item-divider>
+  </ion-card>
+  <ion-button (click)="onClick()" expand="block" margin>
+    <ion-icon slot="icon-only" name="send"></ion-icon>
+  </ion-button>
+</ion-content>
